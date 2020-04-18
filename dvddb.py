@@ -1,6 +1,5 @@
 import os
 import psycopg2
-import pyscopg2.extras
 import urllib.parse
 
 class DVD_DB:
