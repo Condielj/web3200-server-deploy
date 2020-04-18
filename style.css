@@ -1,0 +1,169 @@
+body{
+    background-color: black;
+}
+
+#hidewrapper{
+    display: none;
+    margin-top: 316px;
+}
+
+#wrapper {
+    float: left;
+    background-color: white;
+    width: 35%;
+    margin-top: auto;
+    border: 5px solid #C32232;
+    overflow: hidden;
+    height: 300px;
+}
+
+#wrapper2 {
+    background-color: white;
+    width: 85%;
+    margin: auto;
+    border: 5px solid #C32232;
+    overflow: hidden;
+}
+
+#signinguy {
+    background-color: white;
+    width: 25%;
+    margin: auto;
+    margin-top: 316px;
+    border: 5px solid #C32232;
+    overflow: hidden;
+}
+
+#registerguy{
+    background-color: white;
+    width: 25%;
+    margin: auto;
+    border: 5px solid #C32232;
+    overflow: hidden;
+}
+
+#signinbutton {
+    /*float: right;*/
+    font-size: 16px;
+}
+
+#registerbutton {
+    /*float: right;*/
+    font-size: 16px;
+}
+
+#wrapper3{
+    float: left;
+    margin-top: auto;
+    background-color: white;
+    width: 60%;
+    border: 5px solid #C32232;
+    overflow: hidden;
+    height: 300px;
+
+}
+
+#header-div {
+    float: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+.headerimg{
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    top: 158px;
+    height: 316px;
+    width: auto;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+}
+
+h1{
+    font-family: sans-serif;
+    font-style: bold;
+    font-size: 72;
+    line-height: 1.0;
+    color: black;
+    text-align: center;
+}
+
+h2{
+    font-family: sans-serif;
+    font-style: none;
+    line-height: 1.0;
+}
+
+#current-header{
+    text-align: center;
+}
+
+li{
+    display: inline;
+    float: left;
+    padding: 15px;
+}
+
+p{
+    display: inline;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+input{
+    display: inline;
+}
+
+.signins{
+    float: right;
+    margin-right: 40%;
+}
+
+.signinps{
+    margin-left:5%;
+}
+
+
+#incompleteinfoerrorsignin{
+    display: none;
+    color: red;
+    padding: 10px;
+    font-size: larger;
+}
+
+#incorrecterror{
+    display: none;
+    color: red;
+    padding: 10px;
+    font-size: larger;
+}
+
+#incompleteinfoerrorregister{
+    display: none;
+    color: red;
+    padding: 10px;
+    font-size: larger;
+}
+
+#passwordmatcherror{
+    display: none;
+    color: red;
+    padding: 10px;
+    font-size: larger;
+}
+
+#useralreadyexistserror{
+    display: none;
+    color: red;
+    padding: 10px;
+    font-size: larger;
+}
+
+#nosession{
+    display: none;
+}

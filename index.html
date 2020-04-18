@@ -1,0 +1,72 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+                <img src = "headerimg.jpg" class = "headerimg">
+        </header>
+            <div id = "nosession">
+                <div id = "signinguy">
+                    <p id = "incompleteinfoerrorsignin">Please fill out all fields.</p>
+                    <h2 id = "signinheader">Sign In</h2>
+                    <div id = "signinform">
+                        <p class = "signinps">Email:</P>
+                            <input type="text" name = "email" id = "emailsigninform" class = "signins"><br><br>
+                        <p class = "signinps">Password:</p>
+                            <input type="password" name = "password" id = "passwordsigninform" class = "signins">
+                            <p id = "incorrecterror">Email or password is incorrect/does not exist.</p><br><br>
+                        <button id = "signinbutton">Sign In</button>
+                    </div>
+                </div>
+                <div id = "registerguy">
+                    <p id = "incompleteinfoerrorregister">Please fill out all fields.</p>
+                    <h2 id = "registerheader">Register</h2>
+                    <div id = "inputform">
+                        <p class = "signinps">First Name:</P>
+                            <input type="text" name = "fname" id = "fnameform" class = "signins"><br><br>
+                        <p class = "signinps">Last Name:</p>
+                            <input type="text" name = "lname" id = "lnameform" class = "signins"><br><br>
+                        <p class = "signinps">Email:</p>
+                            <input type="text" name = "emailreg" id = "emailregisterform" class = "signins">
+                            <p id = "useralreadyexistserror">User is already registered.  Sign in instead.</p><br><br>
+                        <p class = "signinps">Password:</p>
+                            <input type="password" name = "passwordreg" id = "passwordregisterform" class = "signins"><br><br>
+                        <p class = "signinps">Confirm Password:</p>
+                            <input type="password" name = "passwordconfreg" id = "passwordconfirmform" class = "signins">
+                            <p id = "passwordmatcherror">Passwords do not match.</p><br><br>
+                        <button id = "registerbutton">Register</button>
+                    </div>
+                </div>
+            </div>
+        <div id = "hidewrapper">
+        <div id = "wrapper3">
+        <h1>DVD Inventory</h1>
+        </div>
+        <div id="wrapper">
+        <h2 id="addheader">Add new DVD to inventory:</h2>
+        <div id = "inputform">
+            <p>Title:</P>
+            <input type="text" name = "title" id = "titleform"><br>
+            <p>Rating:</p>
+            <input type="text" name = "rating" id = "ratingform"><br>
+            <p>Price:</p>
+            <input type="text" name = "price" id = "priceform"><br>
+            <p>Date:</p>
+            <input type="text" name = "dateAdded" id = "dateform"><br>
+            <p>Genre:</p>
+            <input type="text" name = "genre" id = "genreform"><br>
+            <button id="addButton">Add</button>
+            <button id="editButton" style="visibility:hidden" > Submit Changes</button>
+            </div>
+        </div>
+        <div id ="wrapper2">
+        <h2 id = "current-header">DVDs in inventory:</h2>
+        <ol id = "DVD-list">
+
+        </ol>
+        </div>
+        </div>
+    </body>
+    <script src="script.js"></script>
+    </html>
