@@ -1,7 +1,6 @@
 **DVD**
 
 Attributes:
-
 * title (string)
 * rating (string) ((rating as in PG, PG13, R, etc.))
 * price (string)
@@ -10,12 +9,15 @@ Attributes:
 
 **User**
 
+Attributes:
 * email (string)
 * password (string) ((stored encrypted))
 * fname (string) ((first name))
 * lname (string) ((last name))
 
 **Session**
+
+Attributes:
 * sessionId (string)
 * sessionData (dictionary)
 * uid (string) ((user id if there happens to be one logged in, stored inside sessionData))
